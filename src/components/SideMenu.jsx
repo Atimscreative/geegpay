@@ -114,7 +114,7 @@ const SideMenu = ({ theme, setTheme }) => {
           ></div>
         </button>
 
-        <div className="mt-1 flex flex-col items-center gap-6 lg:mt-2">
+        <div className="scrollbar mt-1 flex h-[100px] flex-col items-center gap-6 overflow-y-auto pb-10">
           <span className="cursor-pointer text-stone-400 duration-300 hover:text-slate-900 dark:hover:text-emerald-500">
             <ArrowCircleRight2 size="24" variant="Broken" />
           </span>
