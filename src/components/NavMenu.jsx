@@ -25,14 +25,14 @@ const NavMenu = ({ currentPage }) => {
         <div className="flex items-center gap-3 sm:gap-6">
           <label
             htmlFor="search"
-            className="relative flex h-8 w-8 items-center justify-center gap-2 rounded-[50px] border border-zinc-300 bg-white p-0 has-[:focus]:border has-[:focus]:border-emerald-400 dark:border-neutral-700 dark:bg-neutral-800 lg:static"
+            className="relative flex h-8 w-8 items-center justify-center gap-2 rounded-[50px] border border-zinc-300 bg-white p-0 has-[:focus]:border has-[:focus]:border-emerald-400 dark:border-neutral-700 dark:bg-neutral-800 md:hidden lg:static"
           >
             <SearchNormal1 size="18" className="dark:text-neutral-100" />
           </label>
 
           <label
             htmlFor="search"
-            className="relative hidden w-[300px] items-center gap-2 rounded-[50px] border border-zinc-300 bg-white px-2 py-1 pl-3 has-[:focus]:border has-[:focus]:border-emerald-400 dark:border-neutral-700 dark:bg-neutral-800 sm:flex lg:static"
+            className="relative hidden w-[300px] items-center gap-2 rounded-[50px] border border-zinc-300 bg-white px-2 py-1 pl-3 has-[:focus]:border has-[:focus]:border-emerald-400 dark:border-neutral-700 dark:bg-neutral-800 md:flex lg:static"
           >
             <SearchNormal1 size="18" className="dark:text-neutral-100" />
             <input
