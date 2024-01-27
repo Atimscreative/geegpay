@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap");
+
+* {
+  @apply m-0 box-border;
+}
+
+body {
+  @apply font-plus font-normal;
+}
+
+.active {
+  @apply relative after:absolute after:-right-2 after:top-1/2 after:inline-block after:h-5 after:w-1 after:-translate-y-1/2 after:rounded-s-md after:bg-slate-900 dark:after:bg-emerald-500 sm:after:-right-[21px] md:after:-right-[28px];
+}
+
+.active > svg {
+  @apply text-slate-900 dark:text-emerald-500;
+}
+
+tbody > tr {
+  @apply border-t dark:border-neutral-800 dark:border-opacity-40;
+}
+
+td {
+  @apply whitespace-nowrap px-2 pr-9;
+}
+
+/* SCROLLBAR */
+.scrollbar::-webkit-scrollbar {
+  @apply hidden w-2;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  @apply rounded-md bg-neutral-300;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
